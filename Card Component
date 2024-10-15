@@ -1,6 +1,6 @@
 <!-- component -->
 <html>
-  <head>
+  <head> 
     <link
       rel="stylesheet"
       href="https://horizon-ui.com/shadcn-nextjs-boilerplate/_next/static/css/32144b924e2aa5af.css"
