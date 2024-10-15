@@ -1,0 +1,12 @@
+<!-- component -->
+<div class="flex min-h-screen flex-col justify-center bg-[#0a1120] bg-[url('https://mini.codingcodax.dev/images/dark-beams.jpg')] bg-[length:86.125rem] bg-bottom bg-no-repeat p-4">
+    <div class="absolute inset-0 bg-[url('https:https://snippets.alexandru.so///mini.codingcodax.dev/images/dark-grid.svg')]"></div>
+
+<div class="mx-auto w-screen-sm">
+  <!-- Snippet -->
+  <div class="relative flex h-10 w-full flex-row-reverse overflow-clip rounded-lg">
+    <input class="peer w-full rounded-r-lg border border-slate-400 px-2 text-slate-900 placeholder-slate-400 transition-colors duration-300 focus:border-sky-400 focus:outline-none" type="text" name="domain" id="domain" placeholder="domain.dev" />
+    <label class="flex items-center rounded-l-lg border border-slate-400 bg-slate-50 px-2 text-sm text-slate-400 transition-colors duration-300 peer-focus:border-sky-400 peer-focus:bg-sky-400 peer-focus:text-white" for="domain">https://</label>
+  </div>
+</div>
+</div>
