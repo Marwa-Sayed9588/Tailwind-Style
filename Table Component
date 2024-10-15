@@ -1,0 +1,499 @@
+<!-- component -->
+<html class="bg-zinc-950">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://horizon-ui.com/shadcn-nextjs-boilerplate/_next/static/css/12f72a06cf11dcdf.css"
+    />
+  </head>
+
+  <body class="bg-zinc-950">
+    <div
+      class="flex flex-col justify-center items-center bg-zinc-950 h-[100vh]"
+    >
+      <div
+        class="mx-auto flex w-full mt-20 flex-col justify-center px-5 pt-0 md:h-[unset] md:max-w-[92%] lg:h-[60vh] lg:max-w-[80%] lg:px-6 xl:pl-0"
+      >
+        <div class="relative flex w-full flex-col pt-[20px] md:pt-0">
+          <div class="h-full w-full rounded-lg">
+            <div
+              class="rounded-lg border bg-card text-card-foreground shadow-sm h-full w-full p-0 border-zinc-800 sm:overflow-auto"
+            >
+              <div>
+                <div class="relative w-full overflow-auto">
+                  <table class="caption-bottom text-sm w-full">
+                    <thead
+                      class="[&amp;_tr]:border-b border-b-[1px] p-6 border-zinc-800"
+                    >
+                      <tr class="border-zinc-800">
+                        <th
+                          class="h-12 px-4 align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0 cursor-pointer pl-5 pr-4 pt-2 text-start border-zinc-800"
+                          colspan="1"
+                        >
+                          <div class="flex max-w-max items-center">
+                            <button
+                              type="button"
+                              role="checkbox"
+                              aria-checked="false"
+                              data-state="unchecked"
+                              value="on"
+                              class="peer h-4 w-4 shrink-0 rounded-sm border border-primary ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground"
+                            ></button>
+                          </div>
+                        </th>
+                        <th
+                          class="h-12 px-4 align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0 cursor-pointer pl-5 pr-4 pt-2 text-start border-zinc-800"
+                          colspan="1"
+                        >
+                          <p class="text-xs font-semibold text-zinc-400">
+                            EMAIL ADDRESS
+                          </p>
+                        </th>
+                        <th
+                          class="h-12 px-4 align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0 cursor-pointer pl-5 pr-4 pt-2 text-start border-zinc-800"
+                          colspan="1"
+                        >
+                          <p class="text-xs font-semibold text-zinc-400">
+                            PROVIDER
+                          </p>
+                        </th>
+                        <th
+                          class="h-12 px-4 align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0 cursor-pointer pl-5 pr-4 pt-2 text-start border-zinc-800"
+                          colspan="1"
+                        >
+                          <p class="text-xs font-semibold text-zinc-400">
+                            CREATED
+                          </p>
+                        </th>
+                        <th
+                          class="h-12 px-4 align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0 cursor-pointer pl-5 pr-4 pt-2 text-start border-zinc-800"
+                          colspan="1"
+                        >
+                          <p class="text-xs font-semibold text-zinc-400">
+                            LAST SIGN IN
+                          </p>
+                        </th>
+                        <th
+                          class="h-12 px-4 align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0 cursor-pointer pl-5 pr-4 pt-2 text-start border-zinc-800"
+                          colspan="1"
+                        >
+                          <p class="text-xs font-semibold text-zinc-400">
+                            USER UID
+                          </p>
+                        </th>
+                        <th
+                          class="h-12 px-4 align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0 cursor-pointer pl-5 pr-4 pt-2 text-start border-zinc-800"
+                          colspan="1"
+                        >
+                          <p class="text-xs font-semibold text-zinc-400"></p>
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody class="[&amp;_tr:last-child]:border-0">
+                      <tr
+                        class="border-b border-zinc-800 transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted px-6 dark:hover:bg-zinc-900"
+                      >
+                        <td
+                          class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 w-max border-b-[1px] py-5 pl-5 pr-4 border-white/10"
+                        >
+                          <div class="flex max-w-max items-center">
+                            <button
+                              type="button"
+                              role="checkbox"
+                              aria-checked="false"
+                              data-state="unchecked"
+                              value="on"
+                              class="peer h-4 w-4 shrink-0 rounded-sm border border-primary ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground"
+                            ></button>
+                          </div>
+                        </td>
+                        <td
+                          class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 w-max border-b-[1px] py-5 pl-5 pr-4 border-white/10"
+                        >
+                          <p class="text-sm font-medium text-white">
+                            vlad@simmmple.com
+                          </p>
+                        </td>
+                        <td
+                          class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 w-max border-b-[1px] py-5 pl-5 pr-4 border-white/10"
+                        >
+                          <div class="flex w-full items-center gap-[14px]">
+                            <p class="text-sm font-medium text-white">Google</p>
+                          </div>
+                        </td>
+                        <td
+                          class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 w-max border-b-[1px] py-5 pl-5 pr-4 border-white/10"
+                        >
+                          <div class="flex w-full items-center gap-[14px]">
+                            <p class="text-sm font-medium text-white">
+                              06 Nov, 2023 11:33
+                            </p>
+                          </div>
+                        </td>
+                        <td
+                          class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 w-max border-b-[1px] py-5 pl-5 pr-4 border-white/10"
+                        >
+                          <p class="text-sm font-medium text-white">
+                            06 Nov, 2023 11:33
+                          </p>
+                        </td>
+                        <td
+                          class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 w-max border-b-[1px] py-5 pl-5 pr-4 border-white/10"
+                        >
+                          <p class="text-sm font-medium text-white">
+                            f3f42fc419-ce32-49fc-92df...
+                          </p>
+                        </td>
+                        <td
+                          class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 w-max border-b-[1px] py-5 pl-5 pr-4 border-white/10"
+                        >
+                          <div>
+                            <button
+                              class="whitespace-nowrap ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-10 px-4 py-2 flex items-center text-xl hover:cursor-pointer text-white hover:bg-transparent active:bg-transparent justify-center rounded-lg font-bold transition duration-200"
+                              type="button"
+                              id="radix-:r0:"
+                              aria-haspopup="menu"
+                              aria-expanded="false"
+                              data-state="closed"
+                            >
+                              <p class="text-2xl hover:cursor-pointer">
+                                <svg
+                                  stroke="currentColor"
+                                  fill="currentColor"
+                                  stroke-width="0"
+                                  viewBox="0 0 16 16"
+                                  height="1em"
+                                  width="1em"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <path
+                                    d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3"
+                                  ></path>
+                                </svg>
+                              </p>
+                            </button>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr
+                        class="border-b border-zinc-800 transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted px-6 dark:hover:bg-zinc-900"
+                      >
+                        <td
+                          class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 w-max border-b-[1px] py-5 pl-5 pr-4 border-white/10"
+                        >
+                          <div class="flex max-w-max items-center">
+                            <button
+                              type="button"
+                              role="checkbox"
+                              aria-checked="false"
+                              data-state="unchecked"
+                              value="on"
+                              class="peer h-4 w-4 shrink-0 rounded-sm border border-primary ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground"
+                            ></button>
+                          </div>
+                        </td>
+                        <td
+                          class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 w-max border-b-[1px] py-5 pl-5 pr-4 border-white/10"
+                        >
+                          <p class="text-sm font-medium text-white">
+                            thomas@gmail.com
+                          </p>
+                        </td>
+                        <td
+                          class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 w-max border-b-[1px] py-5 pl-5 pr-4 border-white/10"
+                        >
+                          <div class="flex w-full items-center gap-[14px]">
+                            <p class="text-sm font-medium text-white">Google</p>
+                          </div>
+                        </td>
+                        <td
+                          class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 w-max border-b-[1px] py-5 pl-5 pr-4 border-white/10"
+                        >
+                          <div class="flex w-full items-center gap-[14px]">
+                            <p class="text-sm font-medium text-white">
+                              06 Nov, 2023 11:29
+                            </p>
+                          </div>
+                        </td>
+                        <td
+                          class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 w-max border-b-[1px] py-5 pl-5 pr-4 border-white/10"
+                        >
+                          <p class="text-sm font-medium text-white">
+                            06 Nov, 2023 11:29
+                          </p>
+                        </td>
+                        <td
+                          class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 w-max border-b-[1px] py-5 pl-5 pr-4 border-white/10"
+                        >
+                          <p class="text-sm font-medium text-white">
+                            f3f42fc419-ce32-49fc-92df...
+                          </p>
+                        </td>
+                        <td
+                          class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 w-max border-b-[1px] py-5 pl-5 pr-4 border-white/10"
+                        >
+                          <div>
+                            <button
+                              class="whitespace-nowrap ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-10 px-4 py-2 flex items-center text-xl hover:cursor-pointer text-white hover:bg-transparent active:bg-transparent justify-center rounded-lg font-bold transition duration-200"
+                              type="button"
+                              id="radix-:r2:"
+                              aria-haspopup="menu"
+                              aria-expanded="false"
+                              data-state="closed"
+                            >
+                              <p class="text-2xl hover:cursor-pointer">
+                                <svg
+                                  stroke="currentColor"
+                                  fill="currentColor"
+                                  stroke-width="0"
+                                  viewBox="0 0 16 16"
+                                  height="1em"
+                                  width="1em"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <path
+                                    d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3"
+                                  ></path>
+                                </svg>
+                              </p>
+                            </button>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr
+                        class="border-b border-zinc-800 transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted px-6 dark:hover:bg-zinc-900"
+                      >
+                        <td
+                          class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 w-max border-b-[1px] py-5 pl-5 pr-4 border-white/10"
+                        >
+                          <div class="flex max-w-max items-center">
+                            <button
+                              type="button"
+                              role="checkbox"
+                              aria-checked="false"
+                              data-state="unchecked"
+                              value="on"
+                              class="peer h-4 w-4 shrink-0 rounded-sm border border-primary ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground"
+                            ></button>
+                          </div>
+                        </td>
+                        <td
+                          class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 w-max border-b-[1px] py-5 pl-5 pr-4 border-white/10"
+                        >
+                          <p class="text-sm font-medium text-white">
+                            markwilliam@hotmail.com
+                          </p>
+                        </td>
+                        <td
+                          class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 w-max border-b-[1px] py-5 pl-5 pr-4 border-white/10"
+                        >
+                          <div class="flex w-full items-center gap-[14px]">
+                            <p class="text-sm font-medium text-white">Email</p>
+                          </div>
+                        </td>
+                        <td
+                          class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 w-max border-b-[1px] py-5 pl-5 pr-4 border-white/10"
+                        >
+                          <div class="flex w-full items-center gap-[14px]">
+                            <p class="text-sm font-medium text-white">
+                              06 Nov, 2023 11:21
+                            </p>
+                          </div>
+                        </td>
+                        <td
+                          class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 w-max border-b-[1px] py-5 pl-5 pr-4 border-white/10"
+                        >
+                          <p class="text-sm font-medium text-white">
+                            06 Nov, 2023 11:21
+                          </p>
+                        </td>
+                        <td
+                          class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 w-max border-b-[1px] py-5 pl-5 pr-4 border-white/10"
+                        >
+                          <p class="text-sm font-medium text-white">
+                            f3f42fc419-ce32-49fc-92df...
+                          </p>
+                        </td>
+                        <td
+                          class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 w-max border-b-[1px] py-5 pl-5 pr-4 border-white/10"
+                        >
+                          <div>
+                            <button
+                              class="whitespace-nowrap ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-10 px-4 py-2 flex items-center text-xl hover:cursor-pointer text-white hover:bg-transparent active:bg-transparent justify-center rounded-lg font-bold transition duration-200"
+                              type="button"
+                              id="radix-:r4:"
+                              aria-haspopup="menu"
+                              aria-expanded="false"
+                              data-state="closed"
+                            >
+                              <p class="text-2xl hover:cursor-pointer">
+                                <svg
+                                  stroke="currentColor"
+                                  fill="currentColor"
+                                  stroke-width="0"
+                                  viewBox="0 0 16 16"
+                                  height="1em"
+                                  width="1em"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <path
+                                    d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3"
+                                  ></path>
+                                </svg>
+                              </p>
+                            </button>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr
+                        class="border-b border-zinc-800 transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted px-6 dark:hover:bg-zinc-900"
+                      >
+                        <td
+                          class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 w-max border-b-[1px] py-5 pl-5 pr-4 border-white/10"
+                        >
+                          <div class="flex max-w-max items-center">
+                            <button
+                              type="button"
+                              role="checkbox"
+                              aria-checked="false"
+                              data-state="unchecked"
+                              value="on"
+                              class="peer h-4 w-4 shrink-0 rounded-sm border border-primary ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground"
+                            ></button>
+                          </div>
+                        </td>
+                        <td
+                          class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 w-max border-b-[1px] py-5 pl-5 pr-4 border-white/10"
+                        >
+                          <p class="text-sm font-medium text-white">
+                            vlad@simmmple.com
+                          </p>
+                        </td>
+                        <td
+                          class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 w-max border-b-[1px] py-5 pl-5 pr-4 border-white/10"
+                        >
+                          <div class="flex w-full items-center gap-[14px]">
+                            <p class="text-sm font-medium text-white">Google</p>
+                          </div>
+                        </td>
+                        <td
+                          class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 w-max border-b-[1px] py-5 pl-5 pr-4 border-white/10"
+                        >
+                          <div class="flex w-full items-center gap-[14px]">
+                            <p class="text-sm font-medium text-white">
+                              06 Nov, 2023 11:33
+                            </p>
+                          </div>
+                        </td>
+                        <td
+                          class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 w-max border-b-[1px] py-5 pl-5 pr-4 border-white/10"
+                        >
+                          <p class="text-sm font-medium text-white">
+                            06 Nov, 2023 11:33
+                          </p>
+                        </td>
+                        <td
+                          class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 w-max border-b-[1px] py-5 pl-5 pr-4 border-white/10"
+                        >
+                          <p class="text-sm font-medium text-white">
+                            f3f42fc419-ce32-49fc-92df...
+                          </p>
+                        </td>
+                        <td
+                          class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 w-max border-b-[1px] py-5 pl-5 pr-4 border-white/10"
+                        >
+                          <div>
+                            <button
+                              class="whitespace-nowrap ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-10 px-4 py-2 flex items-center text-xl hover:cursor-pointer text-white hover:bg-transparent active:bg-transparent justify-center rounded-lg font-bold transition duration-200"
+                              type="button"
+                              id="radix-:r6:"
+                              aria-haspopup="menu"
+                              aria-expanded="false"
+                              data-state="closed"
+                            >
+                              <p class="text-2xl hover:cursor-pointer">
+                                <svg
+                                  stroke="currentColor"
+                                  fill="currentColor"
+                                  stroke-width="0"
+                                  viewBox="0 0 16 16"
+                                  height="1em"
+                                  width="1em"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <path
+                                    d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3"
+                                  ></path>
+                                </svg>
+                              </p>
+                            </button>
+                          </div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div
+                  class="mt-2 flex h-20 w-full items-center justify-between px-6"
+                >
+                  <div class="flex items-center gap-3">
+                    <p class="text-sm font-medium text-zinc-400">
+                      Showing 6 rows per page
+                    </p>
+                  </div>
+                  <div class="flex items-center gap-2">
+                    <button
+                      class="whitespace-nowrap font-medium ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-10 flex items-center justify-center rounded-lg p-2 text-lg transition duration-200 text-white hover:bg-transparent active:bg-transparent"
+                      disabled=""
+                    >
+                      <svg
+                        stroke="currentColor"
+                        fill="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 24 24"
+                        height="1em"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path fill="none" d="M0 0h24v24H0z"></path>
+                        <path
+                          d="M15.41 7.41 14 6l-6 6 6 6 1.41-1.41L10.83 12z"
+                        ></path>
+                      </svg></button
+                    ><button
+                      class="whitespace-nowrap font-medium ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-10 flex min-w-[34px] items-center justify-center rounded-lg p-2 text-lg transition duration-200 text-white hover:bg-transparent active:bg-transparent"
+                    >
+                      <svg
+                        stroke="currentColor"
+                        fill="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 24 24"
+                        height="1em"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path fill="none" d="M0 0h24v24H0z"></path>
+                        <path
+                          d="M10 6 8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+                        ></path>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="font-normal text-white mt-20 mx-auto w-max">
+       Table Card Component from
+        <a
+          href="https://horizon-ui.com/shadcn-ui?ref=twcomponents"
+          target="_blank"
+          class="text-brand-500 font-bold"
+          >Horizon AI Boilerplate</a
+        >
+      </p>
+    </div>
+  </body>
+</html>
